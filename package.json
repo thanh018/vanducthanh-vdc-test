@@ -44,7 +44,9 @@
     "test:watch": "cross-env NODE_ENV=test jest --watchAll --verbose",
     "test:i": "jest --config jest.config.puppeteer.js",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prettify": "prettier --write"
+    "prettify": "prettier --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     "last 2 versions",
@@ -100,6 +102,7 @@
     "enzyme-to-json": "^3.5.0",
     "express": "4.16.4",
     "fontfaceobserver": "2.1.0",
+    "gh-pages": "^3.1.0",
     "history": "4.9.0",
     "hoist-non-react-statics": "3.3.0",
     "husky": "^4.2.3",
@@ -108,8 +111,8 @@
     "intl": "1.2.4",
     "invariant": "2.2.4",
     "ip": "1.1.5",
-    "jest-transform-stub": "^2.0.0",
     "jest-puppeteer": "^4.4.0",
+    "jest-transform-stub": "^2.0.0",
     "jwt-decode": "^2.2.0",
     "lodash": "4.17.11",
     "minimist": "1.2.0",
@@ -153,7 +156,7 @@
   "devDependencies": {
     "@babel/cli": "7.4.3",
     "@babel/core": "7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/plugin-transform-modules-commonjs": "7.4.3",

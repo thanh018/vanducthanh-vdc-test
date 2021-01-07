@@ -13,7 +13,12 @@ $ yarn start
 $ yarn run  test  -u
 ```
 
-http://localhost:3000/
+## Run demo
+- http://thanh018.github.io/vanducthanh-vdc-test
+
+## Run localhost
+
+- http://localhost:3000/
 
 
 ## My test homework
