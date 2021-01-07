@@ -1,0 +1,18 @@
+export const FETCH_SEARCH_DATA = 'FETCH_SEARCH_DATA';
+export const FETCH_SEARCH_DATA_SUCCESS = 'FETCH_SEARCH_DATA_SUCCESS';
+export const FETCH_SEARCH_DATA_FAILURE = 'FETCH_SEARCH_DATA_FAILURE';
+
+export const GET_WEATHER_DETAIL = 'GET_WEATHER_DETAIL';
+export const GET_WEATHER_DETAIL_SUCCESS = 'GET_WEATHER_DETA_SUCCESS';
+export const GET_WEATHER_DETAIL_FAILURE = 'GET_WEATHER_DETA_FAILURE';
+
+export const UPDATE_LAST_ACTION = 'UPDATE_LAST_ACTION';
+export const RESET_WEATHER_DETAIL = 'RESET_WEATHER_DETAIL';
+
+export const DAYS = {
+  0: 'Monday',
+  1: 'Tuesday',
+  2: 'Wednesday',
+  3: 'Thursday',
+  4: 'Friday',
+};

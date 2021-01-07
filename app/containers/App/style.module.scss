@@ -1,0 +1,16 @@
+.layout {
+  background-color: #fafafa;
+  min-height: 100vh;
+
+  :global(.ant-select-selection) {
+    background-color: transparent;
+  }
+  :global(.ant-input-group-addon) {
+    border-radius: 40px;
+  }
+
+  :global(.ant-empty) {
+    border-radius: 10px;
+    padding: 25px;
+  }
+}
